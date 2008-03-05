@@ -1,6 +1,9 @@
 package Acme::ManekiNeko;
 
-our $VERSION='0.01';
+use strict;
+use warnings;
+
+our $VERSION='0.02';
 our $MANEKINEKO=<<'EOM';
 
              db         db
@@ -43,6 +46,15 @@ Acme::ManekiNeko
 
     use Acme::ManekiNeko; # This will make your Perl programs a lot more lucky
 
+=head1 HISTORY
+
+I took this module down ages ago, but I kept seeing references to it
+where people had actually like this random bit of sillyness and I kicked myself 
+that I had lost the code. Enter backpan, thanks!
+
+    http://www.runme.org/project/+AcmeManekiNeko/
+    http://www.hyuki.com/yukiwiki/wiki.cgi?Acme%3A%3AManekiNeko
+
 =head1 DESCRIPTION
 
 "According to ancient legend, this cat stood in the doorway of the
@@ -59,7 +71,7 @@ code luck.
 
 =head1 AUTHOR
 
-Greg McCarroll <greg@mccarroll.demon.co.uk>
+Greg McCarroll <greg@mccarroll.org.uk>
 
 =end
 
