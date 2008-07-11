@@ -1,9 +1,7 @@
 package Acme::ManekiNeko;
 
-use strict;
-use warnings;
+our $VERSION='0.03';
 
-our $VERSION='0.02';
 our $MANEKINEKO=<<'EOM';
 
              db         db
@@ -44,16 +42,13 @@ Acme::ManekiNeko
 
 =head1 SYNOPSIS
 
-    use Acme::ManekiNeko; # This will make your Perl programs a lot more lucky
+    use Acme::ManekiNeko; # This will make your Perl programs a lot more lucky.
 
-=head1 HISTORY
+=head1 NO REALLY
 
-I took this module down ages ago, but I kept seeing references to it
-where people had actually like this random bit of sillyness and I kicked myself 
-that I had lost the code. Enter backpan, thanks!
-
-    http://www.runme.org/project/+AcmeManekiNeko/
-    http://www.hyuki.com/yukiwiki/wiki.cgi?Acme%3A%3AManekiNeko
+The fine CPAN testing people failed this module because it uses 'our', so it now requires
+5.6 Perl, so if you can use this you really are more likely to have your program run to
+completion, honest guv (no warranty!).
 
 =head1 DESCRIPTION
 
